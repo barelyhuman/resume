@@ -64,6 +64,7 @@ a {
 }
 
 .item > .item-header > .item-header-subtitle {
+  font-size: 10px;
   font-style: italic;
 }
 
