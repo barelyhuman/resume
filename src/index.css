@@ -21,7 +21,7 @@ html {
 body {
   font-family: inherit;
   font-size: 12px;
-  margin: 24px 48px;
+  margin: 24px 46px;
 }
 
 h1 {
@@ -107,7 +107,7 @@ a {
 @media print {
   @page {
     size: portrait;
-    padding: 10mm 25mm;
+    margin: 10mm 10mm;
     background: white;
     color: #343a40;
     -webkit-print-color-adjust: exact !important;

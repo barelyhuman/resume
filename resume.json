@@ -22,17 +22,21 @@
   "work": [
     {
       "company": "NearForm",
-      "highlights": [],
       "position": "Senior Software Developer",
       "startDate": "2024-01-30",
-      "website": "https://www.linkedin.com/company/fountane/"
+      "website": "https://www.linkedin.com/company/fountane/",
+      "highlights": [
+        "Achieve 8ms response times for a hard constraint based search system based on Redis",
+        "Optimize CI and Dev tooling to increase the development feedback cycle by 30%",
+        "Contributed to fastify, mercurius and other OSS projects"
+      ]
     },
     {
       "company": "Fountane, LLC ",
       "endDate": "2024-01-29",
       "highlights": [
         "Lead and built ComplyIQ and it's tax management platform for the American Clientele to increase tax filing accuracy",
-        "Built the impoweredTeam iOS and Android app and it's arch to help caretakers and caregivers find each other quickly"
+        "Built the impoweredTeam iOS and Android app and it's architecture to help caretakers and caregivers find each other"
       ],
       "position": "Principal Developer",
       "startDate": "2020-07-31",
@@ -43,8 +47,8 @@
       "company": "Fountane, LLC ",
       "endDate": "2020-07-31",
       "highlights": [
-        "Worked with Parkpoolr from the MVP to it's acquisition while helping people book parkings every minute of the day and space hosts being able to customize the fair and availability to their liking",
-        "Worked and guided variety of other small scaled apps and startup in terms of technology/digitalization and simplification of deployments and development"
+        "Built Parkpoolr from MVP to acquisition, a product for customers to book parking spaces with per-minute accuracy and for hosts to be able to manage and flexibly change the fare",
+        "Provided technical guidance and simplified deployments for multiple small-scale apps and startups"
       ],
       "position": "Full Stack Developer",
       "startDate": "2019-11-30",
@@ -54,9 +58,9 @@
       "company": "Valuefy Solutions Private Limited",
       "endDate": "2019-10-31",
       "highlights": [
-        "Helped setup with various quality of life improvements to the LoopBack.io codebase",
-        "Managed elastic search queries and instances to make sure analytical reports were accurate and fast",
-        "Minor contributions to the NativeScript app that was built as a companion to the large web based portal"
+        "Helped setup various quality of life improvements to the LoopBack.io codebase",
+        "Optimized elastic search queries and instances to make sure analytical reports were accurate and fast, sub 10s report generation for decks",
+        "POC and SDK setup for the NativeScript app that was built as a companion to the large web based portal"
       ],
       "position": "Full-stack Developer",
       "startDate": "2018-09-30",
@@ -67,7 +71,7 @@
       "endDate": "2018-09-30",
       "highlights": [
         "Worked on creating a simplified flow for both customer and garage owners to manage their bookings for car repairs. The stack was the good ol' MEAN Stack",
-        "Attempted on improving the damage detection of vehicles with Machine Learning aka Tensorflow and Python with the help of a few interns"
+        "Helped create the initial damage detection of vehicles with Machine Learning (Tensorflow and Python)"
       ],
       "position": "Software Designer and Developer",
       "startDate": "2018-04-30",
@@ -77,7 +81,7 @@
       "company": "Scaleswift Digital Services Pvt. Ltd.",
       "endDate": "2018-02-28",
       "highlights": [
-        "Bought to life a marketing analytics platform that curates data from multiple platforms (Facebook/LinkedIn Ads, Instagram Ads, etc)"
+        "Worked on realising a marketing analytics platform that curates data from other marketing platforms (Facebook/LinkedIn Ads, Instagram Ads, etc)"
       ],
       "position": "Tech Lead",
       "startDate": "2018-01-31",
@@ -87,7 +91,7 @@
       "company": "Retailio",
       "endDate": "2017-12-31",
       "highlights": [
-        "Parallely worked on 2 platforms one for Taxation and another for Medical Delivery Ops",
+        "Parallely worked on Taxation and Medical Delivery Operations domains",
         "Learned backend developement with loopback.io while working with React and Angular.js for the above mentioned platforms",
         "Found my first set of mentors"
       ],
@@ -99,7 +103,7 @@
       "company": "HoppApp",
       "endDate": "2017-05-31",
       "highlights": [
-        "Worked with the core team to bring to life a very MVP phase Admin portal for managing driver bookings and location to help with both automatic ride assignment and manually helping customer get drivers"
+        "Worked with the core team to bring to life an MVP of the Admin portal for managing driver bookings and location to simplify customer to driver contact"
       ],
       "position": "Angular JS Dev",
       "startDate": "2016-09-30"
