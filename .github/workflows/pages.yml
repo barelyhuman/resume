@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  BUILD_PATH: "." 
+  BUILD_PATH: "."
 
 jobs:
   build:
@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-          
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -38,8 +38,8 @@ jobs:
         run: npm ci
         working-directory: ${{ env.BUILD_PATH }}
       - name: Build
-        run: | 
-            BASE_URL="${{ steps.pages.outputs.base_path }}" npm run build          
+        run: |
+          BASE_URL="${{ steps.pages.outputs.base_path }}" npm run build
         working-directory: ${{ env.BUILD_PATH }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

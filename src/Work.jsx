@@ -14,9 +14,15 @@ export function Work({ resume }) {
       {work.map(
         (
           {
-            position, location, startDate, endDate, startDate2, endDate2, highlights = [],
+            position,
+            location,
+            startDate,
+            endDate,
+            startDate2,
+            endDate2,
+            highlights = [],
           },
-          index
+          index,
         ) => {
           return (
             <>
@@ -24,14 +30,15 @@ export function Work({ resume }) {
                 title={getValueIfDiffFromPrevious(
                   resume.work,
                   index,
-                  "company"
+                  "company",
                 )}
                 subtitle={position}
                 location={location}
                 startDate={startDate}
                 endDate={endDate}
                 startDate2={startDate2}
-                endDate2={endDate2} />
+                endDate2={endDate2}
+              />
               <ul class="highlights">
                 {highlights.map((d) => (
                   <li>{d}</li>
@@ -39,7 +46,7 @@ export function Work({ resume }) {
               </ul>
             </>
           );
-        }
+        },
       )}
     </section>
   );

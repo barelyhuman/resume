@@ -1,7 +1,13 @@
 import { Item } from "./Item";
 
 function RenderEducation({
-  institution, studyType, city, startDate, endDate, score, courses,
+  institution,
+  studyType,
+  city,
+  startDate,
+  endDate,
+  score,
+  courses,
 }) {
   return (
     <>
@@ -10,7 +16,8 @@ function RenderEducation({
         subtitle={studyType}
         location={city}
         startDate={startDate}
-        endDate={endDate} />
+        endDate={endDate}
+      />
       {!score ? null : (
         <ul>
           <li>

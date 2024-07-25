@@ -19,7 +19,7 @@ export function Projects({ resume }) {
                 title={getValueIfDiffFromPrevious(
                   resume.projects,
                   index,
-                  "name"
+                  "name",
                 )}
                 location={url}
                 // subtitle={roles.join(", ")}
@@ -34,7 +34,7 @@ export function Projects({ resume }) {
               <div className="clearfix"></div>
             </>
           );
-        }
+        },
       )}
     </section>
   );

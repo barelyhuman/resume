@@ -12,7 +12,7 @@ export function Item({
   return (
     <>
       <div class="item">
-        <ItemHeader title={title} subtitle={subtitle}/>
+        <ItemHeader title={title} subtitle={subtitle} />
         <ItemDetails
           location={location}
           startDate={startDate}
@@ -25,7 +25,7 @@ export function Item({
     </>
   );
 }
-function ItemHeader({ title, subtitle}) {
+function ItemHeader({ title, subtitle }) {
   return (
     <div class="item-header">
       {title ? <div class="item-header-title">{title}</div> : null}
