@@ -22,7 +22,7 @@ export function Projects({ resume }) {
                   "name"
                 )}
                 location={url}
-                subtitle={roles.join(", ")}
+                // subtitle={roles.join(", ")}
                 startDate={startDate}
                 endDate={endDate}
               />

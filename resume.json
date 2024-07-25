@@ -119,8 +119,24 @@
       "name": "Preact Native (Discontinued)",
       "description": "An experimental renderer uptop the react-native-bridge to add support for preact components",
       "roles": ["Individual Contributor"],
-      "highlights": [],
+      "highlights": [
+        "Got it working for iOS and Android for most of the DOM operations"
+      ],
       "url": "https://github.com/barelyhuman/preact-native"
+    },
+    {
+      "name": "Adex",
+      "description": "Minimalistic Full Stacks apps using Preact and Vite",
+      "roles": ["Individual Contributor"],
+      "highlights": [],
+      "url": "https://github.com/barelyhuman/adex"
+    },
+    {
+      "name": "DumbJS",
+      "description": "An org full of utils that I use for production usage",
+      "roles": ["Individual Contributor"],
+      "highlights": [],
+      "url": "https://github.com/dumbjs"
     }
   ],
   "education": [

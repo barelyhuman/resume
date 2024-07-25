@@ -18,14 +18,14 @@ html {
 /* Template level */
 body {
   font-family: inherit;
-  font-size: 11px;
+  font-size: 12px;
   margin: 24px 48px;
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 16px;
   text-align: center;
-  margin: 5px;
+  margin: 3px;
 }
 
 h2 {
@@ -51,7 +51,7 @@ a {
 
 .item {
   margin-top: 8px;
-  line-height: 1.5;
+  line-height: 1.12;
 }
 
 .item > .item-header {
