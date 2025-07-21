@@ -70,16 +70,8 @@ a {
   text-underline-offset: 4px;
 }
 
-.m-0 {
-  margin: 0;
-}
-
-.p-0 {
-  padding: 0;
-}
-
-.mt-1 {
-  margin-top: 4px;
+.summary{
+  margin: 4px 0;
 }
 
 .item {
@@ -97,7 +89,7 @@ a {
 }
 
 .item > .item-header > .item-header-subtitle {
-  font-size: 10px;
+  font-size: 13.5px;
   font-style: italic;
 }
 

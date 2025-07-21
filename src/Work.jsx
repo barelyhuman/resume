@@ -14,6 +14,7 @@ export function Work({ resume }) {
       {work.map(
         (
           {
+            summary,
             position,
             location,
             startDate,
@@ -45,6 +46,9 @@ export function Work({ resume }) {
                 startDate2={startDate2}
                 endDate2={endDate2}
               />
+              <p class="summary">
+                {summary}
+              </p>
               <ul class="highlights">
                 {highlights.map((d) => <li>{d}</li>)}
               </ul>
