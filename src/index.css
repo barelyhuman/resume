@@ -21,31 +21,32 @@ html {
 
 body {
   font-family: inherit;
-  font-size: 15px;
-  margin: 32px auto;
-  max-width: 800px;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 40px auto;
+  max-width: 850px;
   background: white;
   color: #222;
 }
 
 
 h1 {
-  font-size: 2.1rem;
+  font-size: 2.4rem;
   font-weight: bold;
   text-align: center;
-  margin: 16px 0 8px 0;
+  margin: 20px 0 12px 0;
   letter-spacing: 0.5px;
 }
 
 
 h2 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   border-width: 0 0 1px 0;
   border-style: none none solid none;
   border-color: #f3f3f3;
-  margin: 24px 0 10px 0;
-  padding-bottom: 2px;
+  margin: 28px 0 12px 0;
+  padding-bottom: 4px;
   display: flex;
   align-items: center;
   gap: 0.5em;
@@ -53,14 +54,15 @@ h2 {
 
 
 section {
-  margin: 32px 0 32px 0;
+  margin: 40px 0;
   border-bottom: 1px solid #f3f3f3;
-  padding-bottom: 16px;
+  padding-bottom: 20px;
 }
 
 ul {
   margin: 0;
   padding-left: 20px;
+  line-height: 1.5;
 }
 
 
@@ -75,8 +77,8 @@ a {
 }
 
 .item {
-  margin-top: 8px;
-  line-height: 1.12;
+  margin-top: 12px;
+  line-height: 1.4;
 }
 
 .item > .item-header {
