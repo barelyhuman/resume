@@ -12,7 +12,7 @@ export function Projects({ resume }) {
     <section id="work">
       <h2>Projects</h2>
       {projects.map(
-        ({ roles = [], url, startDate, endDate, highlights = [] }, index) => {
+        ({ roles = [], description,url, startDate, endDate, highlights = [] }, index) => {
           return (
             <>
               <Item
@@ -26,6 +26,9 @@ export function Projects({ resume }) {
                 startDate={startDate}
                 endDate={endDate}
               />
+              <p class="m-0 p-0 mt-1">
+                {description}
+              </p>
               <ul class="highlights">
                 {highlights.map((d) => (
                   <li>{d}</li>

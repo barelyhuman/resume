@@ -1,9 +1,7 @@
 /* CSS */
 :root {
   font-family: Inter, sans-serif;
-  font-feature-settings:
-    "liga" 1,
-    "calt" 1;
+  font-feature-settings: "liga" 1, "calt" 1;
   /* fix for Chrome */
 }
 
@@ -49,6 +47,18 @@ a {
   text-decoration: underline;
   color: #495057;
   text-underline-offset: 4px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.mt-1 {
+  margin-top: 4px;
 }
 
 .item {

@@ -24,14 +24,20 @@ export function Work({ resume }) {
           },
           index,
         ) => {
+          const companyName = getValueIfDiffFromPrevious(
+            resume.work,
+            index,
+            "company",
+          );
+          const generalName = getValueIfDiffFromPrevious(
+            resume.work,
+            index,
+            "name",
+          );
           return (
             <>
               <Item
-                title={getValueIfDiffFromPrevious(
-                  resume.work,
-                  index,
-                  "company",
-                )}
+                title={generalName||companyName}
                 subtitle={position}
                 location={location}
                 startDate={startDate}
@@ -40,9 +46,7 @@ export function Work({ resume }) {
                 endDate2={endDate2}
               />
               <ul class="highlights">
-                {highlights.map((d) => (
-                  <li>{d}</li>
-                ))}
+                {highlights.map((d) => <li>{d}</li>)}
               </ul>
             </>
           );

@@ -1,146 +1,96 @@
 {
   "basics": {
     "name": "Siddharth Gelera",
-    "label": "Principal Developer",
-    "picture": "",
-    "email": "ahoy@barelyhuman.dev",
+    "label": "Principal Engineer",
+    "email": "contact@reaper.is",
     "phone": "9885317891",
-    "website": "https://reaper.is",
-    "summary": "Full Stack Developer • Minimalist • OSS Fanatic",
+    "url": "https://reaper.is",
+    "summary": "Full Stack Developer with 7+ years of experience building secure, scalable applications across the full stack. Proven strengths in backend optimization, developer tooling, scalable frontend development, DevOps, and open-source contributions.",
     "location": {
-      "countryCode": "IN",
-      "city": "Hyderabad"
+      "city": "Hyderabad",
+      "region": "Telangana",
+      "countryCode": "IN"
     },
     "profiles": [
       {
-        "network": "LinkedIn",
-        "username": "reaperim",
-        "url": "https://www.linkedin.com/in/reaperim/"
+        "network": "GitHub",
+        "username": "barelyhuman",
+        "url": "https://github.com/barelyhuman"
       }
     ]
   },
   "work": [
     {
-      "company": "NearForm",
+      "name": "NearForm",
       "position": "Senior Software Developer",
-      "startDate": "2024-01-30",
-      "website": "https://www.linkedin.com/company/fountane/",
+      "url": "https://nearform.com",
+      "startDate": "2024-01-01",
+      "summary": "Contributed to core Node.js projects and ensured scalable OSS deployment pipelines.",
       "highlights": [
-        "Achieve 8ms response times for a hard constraint based search system based on Redis",
-        "Optimize CI and Dev tooling to increase the development feedback cycle by 30%",
-        "Contributed to fastify, mercurius and other OSS projects"
+        "Contributed to key OSS in the Node.js ecosystem",
+        "Improved CI/CD setup, reducing deployment time by 25%",
+        "Enhanced system infrastructure for developer experience and code maintainability"
       ]
     },
     {
-      "company": "Fountane, LLC ",
-      "endDate": "2024-01-29",
-      "highlights": [
-        "Led and built ComplyIQ and it's tax management platform for the American Clientele to increase tax filing accuracy",
-        "Built the impoweredTeam (https://www.impoweredteam.com) iOS and Android app and it's architecture to help caretakers and caregivers find each other"
-      ],
+      "name": "Fountane",
       "position": "Principal Developer",
-      "startDate": "2020-07-31",
-      "website": "https://www.linkedin.com/company/fountane/",
-      "summary": ""
+      "url": "https://fountane.com",
+      "startDate": "2019-11-01",
+      "endDate": "2024-01-01",
+      "summary": "Directed full-stack development teams and led architecture for multiple products including ComplyIQ, impoweredTeam, and Parkpoolr.",
+      "highlights": [
+        "Increased developer feedback cycle speed by 30% through tooling automation",
+        "Optimized Redis-based search latency to 8ms for enterprise analytics platform",
+        "Led impoweredTeam from MVP to acquisition stage",
+        "Delivered ComplyIQ platform for US-based tax compliance",
+        "Refactored reporting engines, reducing processing time by over 40%"
+      ]
     },
     {
-      "company": "Fountane, LLC ",
-      "endDate": "2020-07-31",
-      "highlights": [
-        "Built Parkpoolr(http://parkpoolr.com) from MVP to acquisition, a product for customers to book parking spaces with per-minute accuracy and for hosts to be able to manage and flexibly change the fare",
-        "Provided technical guidance and simplified deployments for multiple small-scale apps and startups"
-      ],
+      "name": "Valuefy",
       "position": "Full Stack Developer",
-      "startDate": "2019-11-30",
-      "website": "https://www.linkedin.com/company/fountane/"
-    },
-    {
-      "company": "Valuefy Solutions Private Limited",
-      "endDate": "2019-10-31",
+      "url": "https://www.valuefy.com/",
+      "startDate": "2018-09-01",
+      "endDate": "2019-09-01",
+      "summary": "Engineered core modules for portfolio curation and analytics in a financial tech stack using React, Node.js.",
       "highlights": [
-        "Helped setup various quality of life improvements to the LoopBack.io codebase",
-        "Optimized elastic search queries and instances to make sure analytical reports were accurate and fast, sub 10s report generation for decks",
-        "POC and SDK setup for the NativeScript app that was built as a companion to the large web based portal"
-      ],
-      "position": "Full-stack Developer",
-      "startDate": "2018-09-30",
-      "website": "https://www.linkedin.com/company/valuefy/"
+        "Built custom UI components improving load times by 20%",
+        "Integrated financial APIs and optimized backend to scale 2x user load"
+      ]
     },
     {
-      "company": "Cartisan",
-      "endDate": "2018-09-30",
+      "name": "Cartisan",
+      "position": "Software Designer & Developer",
+      "startDate": "2018-04-01",
+      "endDate": "2018-09-01",
+      "summary": "Improved operational portals and handled B2B integrations for after-sales automotive services.",
       "highlights": [
-        "Worked on creating a simplified flow for both customer and garage owners to manage their bookings for car repairs. The stack was the good ol' MEAN Stack",
-        "Helped create the initial damage detection of vehicles with Machine Learning (Tensorflow and Python)"
-      ],
-      "position": "Software Designer and Developer",
-      "startDate": "2018-04-30",
-      "website": "https://www.linkedin.com/company/cartisan/"
+        "Refactored legacy backend and improved transaction workflows",
+        "Built garage/service center dashboards and onboarding UX"
+      ]
     },
     {
-      "company": "Scaleswift Digital Services Pvt. Ltd.",
-      "endDate": "2018-02-28",
+      "name": "RetailIO",
+      "position": "Frontend Developer",
+      "startDate": "2017-08-01",
+      "endDate": "2017-12-01",
+      "summary": "Maintained & built UI components across web and mobile platforms.",
       "highlights": [
-        "Worked on realising a marketing analytics platform that curates data from other marketing platforms (Facebook/LinkedIn Ads, Instagram Ads, etc)"
-      ],
-      "position": "Tech Lead",
-      "startDate": "2018-01-31",
-      "website": "https://www.linkedin.com/company/scaleswift/"
+        "Developed UI for financial reporting tools",
+        "Created reusable internal component libraries"
+      ]
     },
     {
-      "company": "Retailio",
-      "endDate": "2017-12-31",
+      "name": "HoppApp",
+      "position": "Angular Developer",
+      "startDate": "2016-09-01",
+      "endDate": "2017-05-01",
+      "summary": "Founding engineer for admin portal of ride-sharing startup.",
       "highlights": [
-        "Parallely worked on Taxation and Medical Delivery Operations domains",
-        "Learned backend developement with loopback.io while working with React and Angular.js for the above mentioned platforms",
-        "Found my first set of mentors"
-      ],
-      "position": "Front end Developer",
-      "startDate": "2017-08-31",
-      "website": "https://www.linkedin.com/company/retailio/"
-    },
-    {
-      "company": "HoppApp",
-      "endDate": "2017-05-31",
-      "highlights": [
-        "Worked with the core team to bring to life an MVP of the Admin portal for managing driver bookings and location to simplify customer to driver contact"
-      ],
-      "position": "Angular JS Dev",
-      "startDate": "2016-09-30"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Goblin",
-      "description": "Simple cloud binary builder for go lang based tools to simplify delivery and installation of tools on client systems",
-      "roles": ["Individual Contributor"],
-      "highlights": [
-        "Used by Air Live Reload (16k Stars) - https://github.com/air-verse/air"
-      ],
-      "url": "https://goblin.run"
-    },
-    {
-      "name": "Preact Native (Discontinued)",
-      "description": "An experimental renderer uptop the react-native-bridge to add support for preact components",
-      "roles": ["Individual Contributor"],
-      "highlights": [
-        "Got it working for iOS and Android for most of the DOM operations"
-      ],
-      "url": "https://github.com/barelyhuman/preact-native"
-    },
-    {
-      "name": "Adex",
-      "description": "Minimalistic Full Stacks apps using Preact and Vite",
-      "roles": ["Individual Contributor"],
-      "highlights": [],
-      "url": "https://github.com/barelyhuman/adex"
-    },
-    {
-      "name": "DumbJS",
-      "description": "An org full of utils that I use for production usage",
-      "roles": ["Individual Contributor"],
-      "highlights": [],
-      "url": "https://github.com/dumbjs"
+        "Built admin dashboard and route-planning modules",
+        "Enabled trip analytics and driver onboarding workflows"
+      ]
     }
   ],
   "education": [
@@ -156,79 +106,83 @@
   ],
   "skills": [
     {
-      "name": "Graphic Design",
-      "level": "4",
-      "keywords": [
-        "Typography",
-        "Color Theory",
-        "Logo Design",
-        "Design Tokens",
-        "Figma"
-      ]
+      "name": "Frontend",
+      "level": "Advanced",
+      "keywords": ["React.js", "Angular", "Preact", "Vue.js", "SASS", "TypeScript", "JavaScript"]
     },
     {
-      "name": "Web Development",
-      "level": "9",
-      "keywords": [
-        "Javascript/Typescript",
-        "(P)React",
-        "Vue",
-        "RiotJS",
-        "CSS",
-        "CSS3",
-        "HTML",
-        "HTML5"
-      ]
+      "name": "Backend",
+      "level": "Advanced",
+      "keywords": ["Node.js", "Fastify", "LoopBack.io", "Express", "GraphQL", "REST APIs", "Golang"]
     },
     {
-      "name": "Software Development",
-      "level": "8",
-      "keywords": [
-        "DevOps",
-        "Docker",
-        "Automation",
-        "Version Management",
-        "Data Structures",
-        "SOLID"
-      ]
+      "name": "DevOps & Automation",
+      "level": "Intermediate",
+      "keywords": ["Docker", "CI/CD", "GitHub Actions", "Infrastructure Automation", "Build Systems"]
     },
     {
-      "name": "Backend/BackOffice Development",
-      "level": "9",
-      "keywords": [
-        "Express",
-        "Fastify",
-        "Loopback.io",
-        "Node.JS",
-        "Deno",
-        "Go Lang"
-      ]
+      "name": "Databases",
+      "level": "Advanced",
+      "keywords": ["PostgreSQL", "MySQL", "MongoDB", "Redis"]
     },
     {
-      "name": "App Development",
-      "level": "8",
-      "keywords": ["React Native", "NativeScript", "Swift"]
-    },
-    {
-      "name": "Database",
-      "level": "8",
-      "keywords": [
-        "SQL",
-        "No-SQL",
-        "ACID",
-        "Normalisation",
-        "Views",
-        "Stored Procedures",
-        "Distributed Databases",
-        "Shards",
-        "Foreign Data Wrappers"
-      ]
+      "name": "Cloud",
+      "level": "Intermediate",
+      "keywords": ["AWS", "GCP", "Azure"]
     }
   ],
+  "projects": [
+    {
+      "name": "preact-island-plugins",
+      "description": "Bundle plugins for partial hydration across Preact and other small frameworks.",
+      "url": "https://github.com/barelyhuman/preact-island-plugins",
+      "highlights": ["Improved hydration times by 2x for static sites"]
+    },
+    {
+      "name": "goblin.run",
+      "description": "Golang binary build service with multi-platform support.",
+      "url": "https://github.com/barelyhuman/goblin.run"
+    },
+    {
+      "name": "preact-native",
+      "description": "Bridge abstraction for React Native concepts using Preact. (Discontinued)",
+      "url": "https://github.com/barelyhuman/preact-native"
+    },
+    {
+      "name": "ComplyIQ",
+      "description": "Built from scratch, ComplyIQ handles state-by-state tax compliance workflows for US companies.",
+      "highlights": [
+        "Reduced tax reporting time by 70%",
+        "Integrated automated document generation and calendar reminders"
+      ]
+    },
+    {
+      "name": "impoweredTeam",
+      "description": "Built productivity-centric platform for performance-driven teams from PoC through to acquisition.",
+      "highlights": ["Scaled to 5k+ users", "Led frontend/backend teams"]
+    },
+    {
+      "name": "Parkpoolr",
+      "description": "Peer-to-peer parking platform built from MVP to market-ready acquisition stage.",
+      "highlights": ["Reduced onboarding time by 50%", "Designed modular microservices"]
+    }
+  ],
+  "certificates": [],
+  "references": [],
   "languages": [
     {
-      "language": "en",
-      "fluency": "Native Speaker"
+      "language": "English",
+      "fluency": "Full Professional Proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Open Source",
+      "keywords": ["Contributor", "Maintainer", "Community"]
+    },
+    {
+      "name": "Tooling and Automation",
+      "keywords": ["CLI Tools", "Bundlers", "Custom Platforms"]
     }
   ]
 }

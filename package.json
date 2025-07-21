@@ -11,7 +11,8 @@
   "dependencies": {
     "@barelyhuman/prettier-config": "^1.1.0",
     "date-fns": "^3.6.0",
-    "preact": "^10.22.1",
+    "preact": "^10.26.9",
+    "preact-iso": "^2.9.2",
     "preact-render-to-string": "^6.5.7",
     "prettier": "^3.3.3"
   },

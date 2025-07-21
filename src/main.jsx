@@ -1,10 +1,9 @@
-import { hydrate } from "preact";
+import { hydrate ,prerender as ssr} from "preact-iso";
 import { App } from "./app.jsx";
-import renderToString from "preact-render-to-string";
 import "./index.css";
 
 export const prerender = () => {
-  return renderToString(<App />);
+  return ssr(<App />);
 };
 
 if (typeof window !== "undefined") {
