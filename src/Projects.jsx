@@ -14,7 +14,7 @@ export function Projects({ resume }) {
       {projects.map(
         ({ roles = [], description,url, startDate, endDate, highlights = [] }, index) => {
           return (
-            <>
+            <div style={{flexDirection:"column","display":"flex"}}>
               <Item
                 title={getValueIfDiffFromPrevious(
                   resume.projects,
@@ -35,7 +35,7 @@ export function Projects({ resume }) {
                 ))}
               </ul>
               <div className="clearfix"></div>
-            </>
+            </div>
           );
         },
       )}
