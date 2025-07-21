@@ -20,11 +20,19 @@
     ]
   },
   "work": [
+      {
+      "name": "Turbot",
+      "position": "Software Architect",
+      "url": "https://turbot.com",
+      "startDate": "2025-05-12",
+      "summary": "Re-design and simplify user flows for more confident user actions"
+    },
     {
       "name": "NearForm",
       "position": "Senior Software Developer",
       "url": "https://nearform.com",
       "startDate": "2024-01-01",
+      "endDate": "2025-05-10",
       "summary": "Contributed to core Node.js projects and ensured scalable OSS deployment pipelines.",
       "highlights": [
         "Contributed to key OSS in the Node.js ecosystem",
