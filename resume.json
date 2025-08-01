@@ -5,7 +5,7 @@
     "email": "contact@reaper.is",
     "phone": "9885317891",
     "url": "https://reaper.is",
-    "summary": "Full Stack Developer with 7+ years of experience building secure, scalable applications across the full stack. Proven strengths in backend optimization, developer tooling, scalable frontend development, DevOps, and open-source contributions.",
+    "summary": "Software Architect with 8+ years of experience building secure, scalable applications and leading development teams. Proven expertise in system architecture, performance optimization, developer tooling, and open-source contributions. Led teams of 10-15 developers and architected solutions serving 5k+ users with sub-10ms response times.",
     "location": {
       "city": "Hyderabad",
       "region": "Telangana",
@@ -20,12 +20,17 @@
     ]
   },
   "work": [
-      {
+    {
       "name": "Turbot",
       "position": "Software Architect",
       "url": "https://turbot.com",
       "startDate": "2025-05-12",
-      "summary": "Re-design and simplify user flows for more confident user actions"
+      "highlights": [
+        "Architect enterprise client-facing applications focusing on performance, responsiveness, and user experience",
+        "Improved development build times by 60% by migrating from Webpack to ESBuild for code minification",
+        "Collaborate with 7-person architecture team to design stable, extensible abstractions for UI components",
+        "Streamline user onboarding processes and simplify complex workflows for better user adoption"
+      ]
     },
     {
       "name": "NearForm",
@@ -33,11 +38,13 @@
       "url": "https://nearform.com",
       "startDate": "2024-01-01",
       "endDate": "2025-05-10",
-      "summary": "Contributed to core Node.js projects and ensured scalable OSS deployment pipelines.",
       "highlights": [
-        "Contributed to key OSS in the Node.js ecosystem",
-        "Improved CI/CD setup, reducing deployment time by 25%",
-        "Enhanced system infrastructure for developer experience and code maintainability"
+        "Contributed to Fastify ecosystem projects including @fastify/send library and Mercurius GraphQL implementation",
+        "Optimized JavaScript performance bottlenecks using ClinicJS and 0x flamegraphs, reducing function execution times",
+        "Architected microservices solutions using Fastify, Kafka messaging, and Redis caching serving 100-200 concurrent users",
+        "Improved CI/CD setup, reducing deployment time by 25% through automated pipeline optimizations",
+        "Enhanced system infrastructure and caching strategies to improve developer experience and code maintainability",
+        "Optimized Redis-based search functionality from 8-second to 8-millisecond response times using hash tables and fuzzy search"
       ]
     },
     {
@@ -46,13 +53,12 @@
       "url": "https://fountane.com",
       "startDate": "2019-11-01",
       "endDate": "2024-01-01",
-      "summary": "Directed full-stack development teams and led architecture for multiple products including ComplyIQ, impoweredTeam, and Parkpoolr.",
       "highlights": [
-        "Increased developer feedback cycle speed by 30% through tooling automation",
-        "Optimized Redis-based search latency to 8ms for enterprise analytics platform",
-        "Led impoweredTeam from MVP to acquisition stage",
-        "Delivered ComplyIQ platform for US-based tax compliance",
-        "Refactored reporting engines, reducing processing time by over 40%"
+        "Led and mentored development teams of 10-15 engineers across multiple product initiatives",
+        "Hired majority of current engineering staff and conducted daily code reviews with weekly technical mentoring sessions",
+        "Developed and Delivered ComplyIQ tax compliance platform, reducing manual tax reporting processes by 70% through automation",
+        "Built impoweredTeam caregiver platform from MVP to 5k+ users, solving concurrency challenges for job booking systems",
+        "Led Parkpoolr peer-to-peer parking platform development, reducing user booking time by 50% through using interval trees and optimised load balancing"
       ]
     },
     {
@@ -61,10 +67,11 @@
       "url": "https://www.valuefy.com/",
       "startDate": "2018-09-01",
       "endDate": "2019-09-01",
-      "summary": "Engineered core modules for portfolio curation and analytics in a financial tech stack using React, Node.js.",
       "highlights": [
-        "Built custom UI components improving load times by 20%",
-        "Integrated financial APIs and optimized backend to scale 2x user load"
+        "Increased developer feedback cycle speed by 30% through tooling automation",
+        "Engineered core modules for portfolio curation and analytics using Angular and Loopback.io financial tech stack",
+        "Built custom UI components that improved application load times by 20% for financial reporting tools",
+        "Refactored legacy reporting engines, reducing data processing time by over 40% through algorithm improvements"
       ]
     },
     {
@@ -72,10 +79,10 @@
       "position": "Software Designer & Developer",
       "startDate": "2018-04-01",
       "endDate": "2018-09-01",
-      "summary": "Improved operational portals and handled B2B integrations for after-sales automotive services.",
       "highlights": [
-        "Refactored legacy backend and improved transaction workflows",
-        "Built garage/service center dashboards and onboarding UX"
+        "Developed B2B integration portals for automotive after-sales services and garage management systems",
+        "Refactored legacy backend systems and optimized transaction workflows for service center operations",
+        "Built dashboards for garage management and streamlined service center onboarding processes"
       ]
     },
     {
@@ -83,10 +90,10 @@
       "position": "Frontend Developer",
       "startDate": "2017-08-01",
       "endDate": "2017-12-01",
-      "summary": "Maintained & built UI components across web and mobile platforms.",
       "highlights": [
-        "Developed UI for financial reporting tools",
-        "Created reusable internal component libraries"
+        "Developed and maintained reusable UI component libraries for web and mobile tax reporting and filling platform",
+        "Created responsive interfaces for financial analytics tools with focus on cross-platform compatibility",
+        "Collaborated with backend teams to integrate financial data visualization components"
       ]
     },
     {
@@ -94,10 +101,9 @@
       "position": "Angular Developer",
       "startDate": "2016-09-01",
       "endDate": "2017-05-01",
-      "summary": "Founding engineer for admin portal of ride-sharing startup.",
       "highlights": [
-        "Built admin dashboard and route-planning modules",
-        "Enabled trip analytics and driver onboarding workflows"
+        "Founding engineer responsible for building admin portal infrastructure for ride-sharing platform",
+        "Implemented trip analytics dashboard and automated driver onboarding workflows"
       ]
     }
   ],
@@ -116,27 +122,100 @@
     {
       "name": "Frontend",
       "level": "Advanced",
-      "keywords": ["React.js", "Angular", "Preact", "Vue.js", "SASS", "TypeScript", "JavaScript"]
+      "keywords": [
+        "React.js",
+        "Angular",
+        "Preact",
+        "Vue.js",
+        "SASS",
+        "TypeScript",
+        "JavaScript"
+      ]
     },
     {
       "name": "Backend",
       "level": "Advanced",
-      "keywords": ["Node.js", "Fastify", "LoopBack.io", "Express", "GraphQL", "REST APIs", "Golang"]
+      "keywords": [
+        "Node.js",
+        "Fastify",
+        "LoopBack.io",
+        "Express",
+        "GraphQL",
+        "REST APIs",
+        "Golang",
+        "Microservices"
+      ]
     },
     {
-      "name": "DevOps & Automation",
+      "name": "Testing & Quality",
+      "level": "Advanced",
+      "keywords": [
+        "Jest",
+        "Vitest",
+        "Mocha",
+        "Playwright",
+        "Unit Testing",
+        "Integration Testing",
+        "Custom Testing Utilities"
+      ]
+    },
+    {
+      "name": "Security",
+      "keywords": [
+        "Auth",
+        "JWT",
+        "OWASP",
+        "Auth0",
+        "API Security",
+        "Opaque Tokens"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "keywords": [
+        "Microservices",
+        "Event-Driven Architecture",
+        "Message Queues",
+        "Kafka",
+        "Caching Strategies"
+      ]
+    },
+    {
+      "name": "DevOps & Monitoring",
       "level": "Intermediate",
-      "keywords": ["Docker", "CI/CD", "GitHub Actions", "Infrastructure Automation", "Build Systems"]
+      "keywords": [
+        "Docker",
+        "CI/CD",
+        "GitHub Actions",
+        "Infrastructure Automation",
+        "Grafana",
+        "Dynatrace",
+        "Azure Monitoring",
+        "Build Systems"
+      ]
     },
     {
       "name": "Databases",
       "level": "Advanced",
-      "keywords": ["PostgreSQL", "MySQL", "MongoDB", "Redis"]
+      "keywords": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Performance Optimization",
+        "Sharding",
+        "Foreign Data Wrappers"
+      ]
     },
     {
       "name": "Cloud",
       "level": "Intermediate",
       "keywords": ["AWS", "GCP", "Azure"]
+    },
+    {
+      "name": "Project Management",
+      "level": "Basic",
+      "keywords": ["Kanban", "JIRA", "Code Reviews", "Technical Mentoring"]
     }
   ],
   "projects": [
@@ -144,35 +223,31 @@
       "name": "preact-island-plugins",
       "description": "Bundle plugins for partial hydration across Preact and other small frameworks.",
       "url": "https://github.com/barelyhuman/preact-island-plugins",
-      "highlights": ["Improved hydration times by 2x for static sites"]
+      "highlights": [
+        "Bundle plugins enabling partial hydration for Preact and lightweight frameworks",
+        "Improved static site hydration performance by 2x, recognized by core Preact team",
+        "Proof-of-concept that influenced framework architecture discussions"
+      ]
     },
     {
       "name": "goblin.run",
       "description": "Golang binary build service with multi-platform support.",
-      "url": "https://github.com/barelyhuman/goblin.run"
-    },
-    {
-      "name": "preact-native",
-      "description": "Bridge abstraction for React Native concepts using Preact. (Discontinued)",
-      "url": "https://github.com/barelyhuman/preact-native"
-    },
-    {
-      "name": "ComplyIQ",
-      "description": "Built from scratch, ComplyIQ handles state-by-state tax compliance workflows for US companies.",
+      "url": "https://github.com/barelyhuman/goblin.run",
       "highlights": [
-        "Reduced tax reporting time by 70%",
-        "Integrated automated document generation and calendar reminders"
+        "Golang binary build service providing multi-platform compilation and distribution",
+        "Used by major Go CLI projects including air-verse/air and docker-phobia",
+        "Automated build pipeline supporting cross-platform binary generation"
       ]
     },
     {
-      "name": "impoweredTeam",
-      "description": "Built productivity-centric platform for performance-driven teams from PoC through to acquisition.",
-      "highlights": ["Scaled to 5k+ users", "Led frontend/backend teams"]
-    },
-    {
-      "name": "Parkpoolr",
-      "description": "Peer-to-peer parking platform built from MVP to market-ready acquisition stage.",
-      "highlights": ["Reduced onboarding time by 50%", "Designed modular microservices"]
+      "name": "node-snapshot",
+      "description": "Bridge abstraction for React Native concepts using Preact. (Discontinued)",
+      "url": "https://github.com/barelyhuman/node-snapshot",
+      "highlights": [
+        "Custom snapshot testing utility built for Node.js native testing framework",
+        "Addresses gap in Node.js testing ecosystem with lightweight, dependency-free solution",
+        "Demonstrates deep understanding of Node.js testing internals and developer tooling needs"
+      ]
     }
   ],
   "certificates": [],

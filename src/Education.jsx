@@ -3,17 +3,20 @@ import { Item } from "./Item";
 function RenderEducation({
   institution,
   studyType,
+  area,
   city,
   startDate,
   endDate,
   score,
   courses,
 }) {
+  // Combine studyType and area for subtitle
+  const subtitle = area ? `${studyType} in ${area}` : studyType;
   return (
     <>
       <Item
         title={institution}
-        subtitle={studyType}
+        subtitle={subtitle}
         location={city}
         startDate={startDate}
         endDate={endDate}
@@ -21,7 +24,7 @@ function RenderEducation({
       {!score ? null : (
         <ul>
           <li>
-            <div class="score">{{ score }}</div>
+            <div class="score">{score}</div>
           </li>
         </ul>
       )}
